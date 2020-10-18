@@ -1,5 +1,14 @@
 #include "WarHead.h"
 
+
+WarHead::WarHead()
+{
+	position.x = 0;
+	position.y = 0;
+	speed.x = 1;
+	speed.y = 1;
+}
+
 void WarHead::setWarhead(int t_warhead)
 {
 	switch (t_warhead)
@@ -19,12 +28,8 @@ void WarHead::setWarhead(int t_warhead)
 	}
 }
 
-void WarHead::setPosition(Coordinates t_coord)
+void WarHead::moveWarhead()
 {
-	position = t_coord;
-}
-
-Coordinates WarHead::getPosition()
-{
-	return position;
+	position.x += speed.x;
+	position.y += speed.y;
 }

@@ -24,12 +24,18 @@
     <ClCompile Include="WarHead.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Target.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Coordinates.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="WarHead.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Target.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
